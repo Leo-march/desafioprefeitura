@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    color: black;
+}
+
+html{
+    background-image:url(../pompeia_city.jpeg);
+    background-repeat:no-repeat;
+    background-size: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh; 
+}
+
+.fundoinput{
+    height: 600px;
+    width: 450px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    padding-top: 35px;
+}
+
+.bemvindo{
+    text-decoration: none;
+    width: 100%;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 230px;
+    height: 25px;
+}
+
+.textos{
+    padding-bottom: 10px;
+    font-size: 20px;
+    position: relative;
+    right: 40px;
+}
+
+.enviar{
+    width: 130px;
+    height: 50px;
+    background-color: #1900FF;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.textoenviar{
+    font-size: 20px;
+    color:white;
+    text-decoration: none;
+}
+
+.cadastrar{
+    position: relative;
+    top: 20px;
+    font-size: 16px;
+    text-decoration: none;
+}
