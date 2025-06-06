@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ocorrencia.css">
+    <title>Ocorrência</title>
+</head>
+
+<body>
+    <header>
+        <img src="../pompeia_logo.png" alt="">
+        <div>
+            <a href="dashboard.html">
+                <div class="botoesheader">
+                    Acompanhamento
+                </div>
+            </a>
+            <a href="../Login/login.html">
+                <div class="botoesheader">
+                    Sair
+                </div>
+            </a>
+        </div>
+    </header>
+
+    <div class="espaco">
+        <div class="ocorrencia">
+            <div class="partecima">
+                <p class="assunto">Poste caido</p>
+                <p class="quem">Leonardo Marcheti</p>
+            </div>
+            <div class="partetexto">
+                <p class="texto">Buraco na rua Av. Shunji Nishimura, perto a Fundação Shunji Nishimura.</p>
+            </div>
+            <div class="partebaixo">
+                <p class="concluido">Concluído</p>
+            </div>
+        </div>
+        <div class="alteracoes">
+            <label for="situacao">Escolha a situação atual da ocorrência:</label>
+            <select name="situacaoatual" id="situacao">
+                <option value="concluido">Concluído</option>
+                <option value="emAndamento">Em andamento</option>
+                <option value="naoVisto">Não visto</option>
+            </select>
+            <p>Dê um Feedback:</p>
+            <div class="ocorrenciamini">
+                <input type="text" id="feedback">
+            </div>
+            <div class="vaiproladobotao">
+                <a href="../Ocorrencias/dashboard.html">
+                    <div class="enviar">
+                        <p class="textoenviar">Enviar</p>
+                    </div>
+            </div>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>

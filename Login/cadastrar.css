@@ -18,6 +18,10 @@ body{
     height: 100vh; 
 }
 
+a{
+    text-decoration: none;
+}
+
 .fundoinput{
     height: 700px;
     width: 450px;
